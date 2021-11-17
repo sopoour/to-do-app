@@ -23,9 +23,9 @@ function App() {
     });
   };
 
- const handleRemoveToDo = (filteredTasks) => {
-   setToDos(filteredTasks)
- }
+  const handleRemoveToDo = (filteredTasks) => {
+    setToDos(filteredTasks);
+  };
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(toDos));
@@ -33,7 +33,9 @@ function App() {
 
   return (
     <React.Fragment>
-      <h1 style={{color: "white", textAlign: "center", fontSize: "2.5rem"}}>My To Do List</h1>
+      <h1 style={{ color: "white", textAlign: "center", fontSize: "2.5rem" }}>
+        My Simple To Do List
+      </h1>
       <NewToDo onAddToDo={handleAddToDo} />
       <ToDos items={toDos} onRemoveToDo={handleRemoveToDo} />
     </React.Fragment>
