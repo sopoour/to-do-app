@@ -10,21 +10,21 @@ html {
 
 body {
   margin: 0;
-  background-color: #3f3f3f;
+  background-color: #848484;
 }
 
 button {
   cursor: pointer;
   font: inherit;
-  background-color: #7a0144;
-  border: 1px solid #7a0144;
-  border-radius: 20px;
+  background-color: rgba(	244, 162, 97, 1);
+  border: 2px solid #E46F10;
+  border-radius: 10px;
   padding: 0.5rem 2rem;
   color: white;
 }
 
 button:hover,
 button:active {
-  background-color: #9c095a;
-  border-color: #9c095a;
+  background-color: #E46F10;
+  border-color: #E46F10;
 }

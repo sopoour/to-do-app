@@ -12,7 +12,7 @@ const ToDos = (props) => {
     props.onRemoveToDo(removeItem);
   };
 
-  let taskList = <h2>No tasks found. Start adding some!</h2>;
+  let taskList = <h2>No to dos found. Start adding some!</h2>;
 
   if (props.items.length > 0) {
     taskList = (
