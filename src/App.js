@@ -33,7 +33,7 @@ function App() {
 
   return (
     <React.Fragment>
-      <h1 style={{ color: "white", textAlign: "center", fontSize: "2.5rem" }}>
+      <h1 style={{ color: "white", textAlign: "center", fontSize: "2.2rem" }}>
         My Simple To Do List
       </h1>
       <NewToDo onAddToDo={handleAddToDo} />

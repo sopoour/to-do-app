@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  margin: 0;
-  background-color: #848484;
+  margin: 2rem 0.5rem;
+  background-color: rgba(	244, 162, 97, 0.8);
 }
 
 button {
