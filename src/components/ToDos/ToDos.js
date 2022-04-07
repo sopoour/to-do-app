@@ -28,11 +28,9 @@ const ToDos = (props) => {
     );
   }
 
-  let content = taskList;
-
   return (
     <Section>
-      <div className={classes.container}>{content}</div>
+      <div className={classes.container}>{taskList}</div>
     </Section>
   );
 };

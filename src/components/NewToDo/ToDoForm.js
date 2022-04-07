@@ -40,7 +40,6 @@ const ToDoForm = (props) => {
     if (!formIsValid) {
       return;
     }
-    console.log(enteredTitle);
     //if form is valid then submit data
     props.onEnterToDo(enteredTitle, enteredDescription);
     titleReset();
